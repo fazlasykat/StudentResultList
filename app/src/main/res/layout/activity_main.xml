@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+   <ImageView
+       android:id="@+id/img"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:src="@mipmap/ic_launcher_round"
+       android:layout_gravity="center"
+       android:paddingTop="15dp"
+       />
+
+   <TextView
+       android:id="@+id/boardname"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Bangladesh Education Board"
+       android:textSize="25sp"
+       android:gravity="center"
+       android:paddingTop="15dp"
+       android:textColor="@color/colorAccent"
+       />
+
+   <TextView
+       android:id="@+id/resultList"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Resut list :"
+       android:paddingLeft="15dp"
+       android:paddingTop="15dp"
+       android:textSize="18sp"
+       android:textColor="@color/colorAccent"/>
+
+      <TextView
+          android:id="@+id/fksText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="1. Fazla Karim sykat"
+          android:paddingLeft="20sp"
+          android:paddingTop="15dp"
+          android:textColor="@color/colorAccent"
+          android:textSize="15sp"/>
+      <TextView
+          android:id="@+id/kawList"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="2. Kazi Abdul Wazed"
+          android:paddingLeft="20sp"
+          android:paddingTop="15dp"
+          android:textColor="@color/colorAccent"
+          android:textSize="15sp"/>
+      <TextView
+          android:id="@+id/faeList"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="3. Fahmid Al Ekram "
+          android:paddingLeft="20sp"
+          android:paddingTop="15dp"
+          android:textColor="@color/colorAccent"
+          android:textSize="15sp"/>
+      <TextView
+          android:id="@+id/amaList"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="4. Abdul Moket Amad"
+          android:paddingLeft="20sp"
+          android:paddingTop="15dp"
+          android:textColor="@color/colorAccent"
+          android:textSize="15sp"/>
+      <TextView
+          android:id="@+id/mirList"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="5. Mazharul Islam Ryhan"
+          android:paddingLeft="20sp"
+          android:paddingTop="15dp"
+          android:textColor="@color/colorAccent"
+          android:textSize="15sp"/>
+      <TextView
+          android:id="@+id/atrList"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="6. Ashik Tanvir Riham"
+          android:paddingLeft="20sp"
+          android:paddingTop="15dp"
+          android:textColor="@color/colorAccent"
+          android:textSize="15sp"/>
+      <TextView
+          android:id="@+id/ahrList"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="7. Abul Hossain Rana"
+          android:paddingLeft="20sp"
+          android:paddingTop="15dp"
+          android:textColor="@color/colorAccent"
+          android:textSize="15sp"/>
+
+
+</LinearLayout>
